@@ -1,7 +1,7 @@
 {
   "name": "Siguri",
   "description": "Extension Siguri",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "./popup/index.html",
@@ -14,8 +14,7 @@
     "128": "./medias/icon_extensions.png"
   },
   "permissions": [
-    "storage",
-    "cookies"
+    "storage"
   ],
   "web_accessible_resources": [
     {
