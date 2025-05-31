@@ -1,17 +1,19 @@
 {
   "name": "Siguri",
   "description": "Extension Siguri",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "./popup/index.html",
     "default_title": "Siguri Extension",
-    "default_icon": "./medias/icon_extensions.png"
+    "default_icon": "./medias/logo.png"
   },
   "icons": {
-    "16": "./medias/icon_extensions.png",
-    "48": "./medias/icon_extensions.png",
-    "128": "./medias/icon_extensions.png"
+    "16": "./medias/favicon-16x16.png",
+    "32": "./medias/favicon-32x32.png",
+    "64": "./medias/favicon-64x64.png",
+    "192": "./medias/favicon-192x192.png",
+    "512": "./medias/favicon-512x512.png"
   },
   "permissions": [
     "cookies"
