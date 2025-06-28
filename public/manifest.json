@@ -1,7 +1,7 @@
 {
   "name": "Siguri",
   "description": "Extension Siguri",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup/index.html",
@@ -16,7 +16,8 @@
     "512": "medias/favicon-512x512.png"
   },
   "permissions": [
-    "cookies"
+    "cookies",
+    "storage"
   ],
   "host_permissions": [
     "*://*.happykiller.net/*"
